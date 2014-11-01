@@ -14,3 +14,15 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+**/*.db
+**.*.log
+.DS_Store
+.bundle
+.ruby-version
+bin/*
+db/*.sql
+log/*.log
+tmp
+*.swp
+
