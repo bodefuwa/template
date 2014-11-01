@@ -25,4 +25,4 @@ db/*.sql
 log/*.log
 tmp
 *.swp
-
+config/*.yml
