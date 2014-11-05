@@ -26,3 +26,5 @@ log/*.log
 tmp
 *.swp
 config/*.yml
+config/chef/nodes/54.172.50.174.json
+config/chef/nodes/54.86.115.120.json
