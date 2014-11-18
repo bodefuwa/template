@@ -34,6 +34,7 @@ gem 'spring',        group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# gem 'capistrano-rbenv', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
@@ -57,8 +58,11 @@ group :development, :test do
 # Use sqlite3 as the database for Active Record
  gem 'sqlite3'
  gem 'rspec-rails', '~> 2.13.1'
- gem 'capistrano', group: :development
+ gem 'capistrano' #, group: :development
  gem 'capistrano-rails', '~> 1.1.1'
  gem 'capistrano-bundler', '~> 1.1.1'
  gem 'capistrano-rbenv', '~> 2.0.2'
 end
+
+gem 'prawn'
+gem 'net-ssh', '~>2.9.1'
